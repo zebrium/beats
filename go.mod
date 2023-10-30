@@ -62,7 +62,7 @@ require (
 	github.com/devigned/tab v0.1.2-0.20190607222403-0c15cf42f9a2 // indirect
 	github.com/dgraph-io/badger/v3 v3.2103.1
 	github.com/digitalocean/go-libvirt v0.0.0-20180301200012-6075ea3c39a1
-	github.com/docker/docker v20.10.12+incompatible
+	github.com/docker/docker v24.0.7+incompatible
 	github.com/docker/go-connections v0.4.0
 	github.com/docker/go-metrics v0.0.1 // indirect
 	github.com/docker/go-plugins-helpers v0.0.0-20181025120712-1e6269c305b8
@@ -105,7 +105,7 @@ require (
 	github.com/golang/snappy v0.0.4
 	github.com/gomodule/redigo v1.8.3
 	github.com/google/flatbuffers v1.12.1
-	github.com/google/go-cmp v0.5.8
+	github.com/google/go-cmp v0.5.9
 	github.com/google/gopacket v1.1.19
 	github.com/google/uuid v1.3.0
 	github.com/gorhill/cronexpr v0.0.0-20180427100037-88b0669f7d75
@@ -115,7 +115,7 @@ require (
 	github.com/hashicorp/golang-lru v0.5.4
 	github.com/hashicorp/nomad/api v0.0.0-20201203164818-6318a8ac7bf8
 	github.com/hectane/go-acl v0.0.0-20190604041725-da78bae5fc95
-	github.com/insomniacslk/dhcp v0.0.0-20180716145214-633285ba52b2
+	github.com/insomniacslk/dhcp v0.0.0-20230516061539-49801966e6cb
 	github.com/jarcoal/httpmock v1.0.4
 	github.com/jmoiron/sqlx v1.3.1
 	github.com/joeshaw/multierror v0.0.0-20140124173710-69b34d4ec901
@@ -167,14 +167,14 @@ require (
 	go.uber.org/zap v1.21.0
 	golang.org/x/crypto v0.0.0-20210817164053-32db794688a5
 	golang.org/x/lint v0.0.0-20210508222113-6edffad5e616
-	golang.org/x/mod v0.5.1
-	golang.org/x/net v0.0.0-20220225172249-27dd8689420f
+	golang.org/x/mod v0.8.0
+	golang.org/x/net v0.10.0
 	golang.org/x/oauth2 v0.0.0-20211104180415-d3ed0bb246c8
-	golang.org/x/sync v0.0.0-20220513210516-0976fa681c29
-	golang.org/x/sys v0.0.0-20220728004956-3c1f35247d10
-	golang.org/x/text v0.3.7
+	golang.org/x/sync v0.1.0
+	golang.org/x/sys v0.8.0
+	golang.org/x/text v0.9.0
 	golang.org/x/time v0.0.0-20210723032227-1f47c861a9ac
-	golang.org/x/tools v0.1.9
+	golang.org/x/tools v0.6.0
 	google.golang.org/api v0.62.0
 	google.golang.org/genproto v0.0.0-20220329172620-7be39ac1afc7
 	google.golang.org/grpc v1.45.0
@@ -206,7 +206,7 @@ require (
 	github.com/elastic/elastic-agent-shipper-client v0.2.0
 	github.com/elastic/elastic-agent-system-metrics v0.4.4
 	github.com/elastic/go-elasticsearch/v8 v8.2.0
-	github.com/pierrec/lz4/v4 v4.1.15
+	github.com/pierrec/lz4/v4 v4.1.17
 	github.com/shirou/gopsutil/v3 v3.21.12
 	go.elastic.co/apm/module/apmelasticsearch/v2 v2.0.0
 	go.elastic.co/apm/module/apmhttp/v2 v2.0.0
@@ -218,6 +218,7 @@ require (
 require (
 	cloud.google.com/go v0.99.0 // indirect
 	code.cloudfoundry.org/gofileutils v0.0.0-20170111115228-4d0c80011a0f // indirect
+	github.com/AdaLogics/go-fuzz-headers v0.0.0-20230811130428-ced1acdcaa24 // indirect
 	github.com/Azure/azure-amqp-common-go/v3 v3.2.1 // indirect
 	github.com/Azure/azure-pipeline-go v0.2.1 // indirect
 	github.com/Azure/go-amqp v0.16.0 // indirect
@@ -245,7 +246,6 @@ require (
 	github.com/cespare/xxhash v1.1.0 // indirect
 	github.com/cncf/udpa/go v0.0.0-20210930031921-04548b0d99d4 // indirect
 	github.com/cncf/xds/go v0.0.0-20211130200136-a8f946100490 // indirect
-	github.com/containerd/containerd v1.5.13 // indirect
 	github.com/cyphar/filepath-securejoin v0.2.3 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/dgraph-io/ristretto v0.1.0 // indirect
@@ -307,10 +307,11 @@ require (
 	github.com/modern-go/reflect2 v1.0.2 // indirect
 	github.com/pierrec/lz4 v2.6.0+incompatible // indirect
 	github.com/power-devops/perfstat v0.0.0-20210106213030-5aafc221ea8c // indirect
+	github.com/rootless-containers/rootlesskit v1.1.1 // indirect
 	github.com/sanathkr/go-yaml v0.0.0-20170819195128-ed9d249f429b // indirect
 	github.com/santhosh-tekuri/jsonschema v1.2.4 // indirect
 	github.com/sergi/go-diff v1.1.0 // indirect
-	github.com/sirupsen/logrus v1.8.1 // indirect
+	github.com/sirupsen/logrus v1.9.2 // indirect
 	github.com/stretchr/objx v0.2.0 // indirect
 	github.com/tklauser/go-sysconf v0.3.9 // indirect
 	github.com/tklauser/numcpus v0.3.0 // indirect
@@ -324,7 +325,7 @@ require (
 	github.com/yusufpapurcu/wmi v1.2.2 // indirect
 	go.elastic.co/fastjson v1.1.0 // indirect
 	go.opencensus.io v0.23.0 // indirect
-	golang.org/x/term v0.0.0-20210927222741-03fcf44c2211 // indirect
+	golang.org/x/term v0.8.0 // indirect
 	golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1 // indirect
 	google.golang.org/appengine v1.6.7 // indirect
 	gopkg.in/jcmturner/rpc.v1 v1.1.0 // indirect
